@@ -1,6 +1,6 @@
 [submodule "APIUtils"]
 	path = APIUtils
-	url = ./APIUtils
+	url = git@github.com:DmytroKornieiev/APIUtils.git
 [submodule "UIUtils"]
 	path = UIUtils
-	url = ./UIUtils
+	url = git@github.com:DmytroKornieiev/UIUtils.git
