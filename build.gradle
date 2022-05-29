@@ -12,13 +12,14 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
     compile project(':APIUtils')
     compile project(':UIUtils')
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.1.4'
 }
 
 test {
     useJUnitPlatform()
 }
+
 
